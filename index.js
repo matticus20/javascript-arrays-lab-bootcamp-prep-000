@@ -23,12 +23,13 @@ function destructivelyRemoveFirstKitten() {
 }
 
 var otherKitten = "Broom"
-function appendKitten(kittens, otherKitten) {
+function appendKitten() {
   var moreKittens = [...kittens, otherKitten]
   return moreKittens
 }
 
+var differentKitten = "Arnold"
 function prependKitten() {
-  var moreKittens = [otherKitten, ...kittens]
+  var moreKittens = [differentKitten, ...kittens]
   return moreKittens
 }
