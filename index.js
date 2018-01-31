@@ -33,3 +33,7 @@ function prependKitten() {
   var moreKittens = [differentKitten, ...kittens]
   return moreKittens
 }
+
+function removeLastKitten() {
+  
+}
